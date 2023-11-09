@@ -1,0 +1,36 @@
+header {
+    color: hsl(0, 0%, 1%);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1000;
+    padding: 0;
+    line-height: 1;
+}
+
+.centered-rectangle {
+    width: 70%; /* Adjust the width as per your design */
+    height: 80vh; /* Adjust the height as per your design */
+    background-color: lightgray; /* Set the background color of the rectangle */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center horizontally within the rectangle */
+    align-items: center; /* Center vertically within the rectangle */
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #b6b6b6;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
